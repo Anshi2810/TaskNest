@@ -1,62 +1,50 @@
-# 🧩 TaskNest
+# Welcome to your Expo app 👋
 
-TaskNest is a smart and minimal **task & habit management app** built with **React Native & Expo**.  
-It helps you organize your daily tasks, build productive habits, and track progress — all in one peaceful space.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Just like a *nest* keeps everything safe and organized, **TaskNest** keeps your tasks structured, focused, and stress-free.
+## Get started
 
----
+1. Install dependencies
 
-## ✨ Features
+   ```bash
+   npm install
+   ```
 
-- 📝 Create, update, and manage daily tasks effortlessly  
-- ✅ Mark tasks as completed and stay consistent  
-- 📊 Track task completion percentage in real time  
-- 📈 Visual progress insights with charts & graphs  
-- 💾 Persistent storage using AsyncStorage  
-- 🌈 Clean, modern UI with smooth user experience  
-- ⚡ Lightweight & fast performance  
+2. Start the app
 
----
+   ```bash
+   npx expo start
+   ```
 
-## 🚀 Why TaskNest?
+In the output, you'll find options to open the app in a
 
-TaskNest is designed for people who want **clarity, not clutter**.  
-No unnecessary features — just what you need to stay productive and motivated every day.
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-Whether you're planning your day or tracking long-term habits, TaskNest keeps everything in one place.
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
----
+## Get a fresh project
 
-## 📲 Ideal For
-
-- 📚 Students managing study schedules  
-- 💼 Professionals organizing daily work  
-- 🧠 Habit-builders focused on self-improvement  
-- ✨ Anyone who wants simple & effective task tracking  
-
----
-
-## 🛠️ Tech Stack
-
-- React Native  
-- Expo  
-- AsyncStorage  
-- Chart Libraries (for progress visualization)  
-
----
-
-## 📦 Installation
+When you're ready, run:
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/TaskNest.git
+npm run reset-project
+```
 
-# Navigate to the project directory
-cd TaskNest
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-# Install dependencies
-npm install
+## Learn more
 
-# Start the Expo development server
-npx expo start
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
